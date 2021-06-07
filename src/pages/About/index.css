@@ -160,6 +160,7 @@ hr{
 .video>div>img{
     vertical-align: middle;
     width: 100%;
+    max-height: 30%;
 }
 
 
