@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    .header{
+        font-size: 13px;
+    }
+    .nav>.box{
+        width: 80vw;
+    } 
+
+} 
+
+/*普通網頁*/
+ @media screen and (min-width:700px) {
+    .nav>.box{
+        width: 60vw;
+        height: 35vw;
+
+    } 
+} 
+
+
+.nav{
+    width: 100%;
+    margin: auto;
+    background-color:#fff6f6 ;
+
+}
+    .nav>.box{
+    margin: auto;
+
+}
+
+

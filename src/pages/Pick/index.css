@@ -1,0 +1,23 @@
+.pick{
+    width: 70%;
+    margin: auto;
+}
+
+.pick span{
+    color:red;
+}
+
+.pick .txt{
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+/* 圓圓 */
+.img{
+    position: relative;
+}
+

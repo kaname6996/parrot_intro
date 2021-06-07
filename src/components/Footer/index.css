@@ -1,0 +1,7 @@
+.footer{
+    height: 50px;
+    background: linear-gradient(360deg, #F8E1E3 0%, #FFFFFF 100%);
+    background: -moz-linear-gradient(360deg, #F8E1E3 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(360deg, #F8E1E3 0%, #FFFFFF 100%);
+    background: -o-linear-gradient(360deg, #F8E1E3 0%, #FFFFFF 100%);
+}

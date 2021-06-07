@@ -1,0 +1,172 @@
+
+@media screen and (max-width:1000px) { /*螢幕1000以下的*/
+    .ul{
+        overflow: hidden;
+    }
+    .parrotul{
+        display: block;
+        padding: 0;
+    }
+    .parrotul>li{
+        width: 100%;
+    }
+    .parrotul>li>.txt{
+        display: none;
+        
+    }
+    .parrotul>li>img{
+        border: #fb929e solid 3px;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:1399px)and (min-width:1000px) {  /*螢幕1000~1399的*/
+    .parrotul{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+
+    } 
+    .parrotul>li{
+        width: 200px;
+        height: 200px;
+        margin: 2% 5% 8%;
+        outline: #fb929e solid 3px;
+        overflow:hidden;
+        transform:rotate(45deg) ;
+    }
+    .parrotul>li>img{
+        position: absolute;
+        transform:rotate(-45deg) ;
+        width: 150%;
+    }
+    .parrotul>li>.txt{
+        height: 100%;
+    }
+        
+}
+
+
+@media screen and (min-width:1400px) and (max-width:1999px) {  /*螢幕1400~2000的*/
+    .parrotul{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+
+    } 
+    .parrotul>li{
+        width: 200px;
+        height: 200px;
+        margin: 0 5% -2%;
+        outline: #fb929e solid 3px;
+        overflow:hidden;
+        transform:rotate(45deg) ;
+    }
+    .parrotul>li:nth-child(n+4){
+        left: 150px;
+        
+    }
+    .parrotul>li>img{
+        position: absolute;
+        transform:rotate(-45deg) ;
+        width: 150%;
+    }
+    .parrotul>li:nth-child(n+7){
+        left: 0;
+    }
+    
+}
+
+@media screen and (min-width:2000px) {    /*螢幕2000以上的*/
+    .parrotul{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+
+    } 
+    .parrotul>li{
+        width: 200px;
+        height: 200px;
+        margin: 0 8% 1%;
+        outline: #fb929e solid 3px;
+        overflow:hidden;
+        transform:rotate(45deg) ;
+    }
+    .parrotul>li:nth-child(n+4){
+        left: 150px;
+        
+    }
+    .parrotul>li>img{
+        position: absolute;
+        transform:rotate(-45deg) ;
+        width: 150%;
+    }
+    .parrotul>li:nth-child(n+7){
+        left: 0;
+    }
+}
+
+
+.ul{
+    margin: auto;
+    position: relative;
+    width: 87%;
+}
+.parrotul{
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+.parrotul>li{
+    list-style:none;
+    text-align: center;
+    line-height: 200px;
+    position: relative;
+    font-size: 30px;
+
+}
+.parrotul>li>img{
+    top: -70px;
+    left: 25px;
+    z-index: -1;
+}
+.parrotul>li>.txt{
+    transform:rotate(-45deg) ;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    opacity: 0.5;
+    font-size:40px;
+    border-radius: 50%;
+    transition: font-size 0.5s;
+}
+
+.parrotul>li>.txt:hover{
+    cursor: pointer;
+    opacity: 1;
+    font-size:50px;
+    background-color: rgba(0,0,0,.6);
+}
+
+
+/* 圖片放大 */
+.breed_picbox{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.breed_picbox>img{
+    width: 50%;
+    padding: 5%;
+}
+.breed_picboxx{
+    display: none;
+}

@@ -1,0 +1,28 @@
+.note{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.note .txt{
+    font-size: smaller;
+    color: gray;
+    transition: color .5s;
+}
+.note .txt:hover{
+    color: black;
+}
+
+.note .item{
+    display: flex;
+}
+.note span{
+    color:red;
+}
+.note img{
+    width: 15%;
+    margin: 15px;
+}
+.note h5::first-letter{
+    font-size: 50px;
+}

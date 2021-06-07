@@ -1,0 +1,51 @@
+@media screen and (max-width:600px) {
+    .header{
+        font-size: 13px;
+    }
+} 
+@media screen and (max-width:360px) {
+    .header{
+        font-size: 5px;
+    }
+} 
+
+.header{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+.header>img{
+    width: 15%;
+    margin: auto;
+    display: flex;
+}
+.header>img:hover{
+    cursor: pointer;
+}
+.header>hr{
+    background-color: #ffdfdf;
+    margin: 10px 0px 0 0px;
+    height: 1px;
+    border: none;
+}
+.header>.list{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    height: 50%;
+    background-color:#fff6f6 ;
+}
+.header>.list>div{
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff6f6;
+    transition:background-color 0.5s ;
+
+}
+.header>.list>div:hover{
+    background-color:#fb929e ;
+    color: white;
+    cursor: pointer;
+}

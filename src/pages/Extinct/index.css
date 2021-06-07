@@ -1,0 +1,91 @@
+
+
+/* 螢幕在1000以下 */
+@media screen and (max-width:1000px) {
+    .extinct{
+        padding: 10px 0;
+    }
+    .extinctbox>.pic{
+        width: 50%;
+    }
+    .extinctbox>.pic>img{
+        width: 100%;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+
+/* 螢幕在1000px以上 */
+@media screen and (min-width:1000px){
+    .extinct{
+        width: 80%;
+        padding: 100px 0;
+    }
+    .extinctbox{
+        margin-bottom: 30px;
+    }
+    .extinctbox:nth-child(odd)>:first-child{
+        margin-right: -6%;
+    }
+    .extinctbox:nth-child(even)>:first-child{
+        margin-right: -20%;
+    }
+    .extinctbox>.pic{
+        width: 40%;
+    }
+    .extinctbox>.pic>img{
+        width: 80%;
+    }
+    .extinctbox>.txt{
+        margin: 0 10px;
+    }
+
+    .extinctbox>.txt>p{
+        font-size: small;
+    }
+    .extinctbox:nth-child(1)>.txt{
+        background-color:#f1d4d7ce;
+        
+    }
+    .extinctbox:nth-child(2)>.txt{
+        background-color: #f1e0e2ce;
+    }
+    .extinctbox:nth-child(3)>.txt{
+        background-color: #ffebebce;
+    }
+    .extinctbox:nth-child(4)>.txt{
+        background-color: #f8ededd2;
+    }
+    
+
+}
+
+.extinct{
+    margin: auto;
+}
+.extinctbox{
+    display: flex;
+    align-items: center;
+}
+
+.extinctbox>.pic{
+    margin: auto;
+}
+.extinctbox>.pic>img{
+    vertical-align: middle;
+    margin: auto;
+    display: flex;
+}
+
+.extinctbox>.txt{
+    width: 50%;
+    padding: 10px 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.extinctbox>.txt>p{
+    color: gray;
+}
+

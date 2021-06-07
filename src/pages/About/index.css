@@ -1,0 +1,212 @@
+
+@media (max-width:1200px) {
+    .boxpic>div{
+        width: 50%;}
+
+        .video{
+            flex-direction: column;
+        }
+        .video>.about{
+            width: 100%;
+        }
+        .video>div{
+            width: 100%;
+        } 
+        .news>div{
+            height: 70vh;
+            overflow-y: scroll;
+        }
+    } 
+
+@media (min-width:1200px) {
+    .boxpic>div{
+        width: 25%;}
+
+    .video{
+            flex-direction: row;
+        }
+        .video>.about{
+            width: 40%;
+            height: 33vh;
+        }
+        .video>div{
+            width: 50%;
+        } 
+    .news{
+        height: 15vw;
+    }
+    .news>div{
+        width: 100%;
+        height: 150%;
+    }
+        
+    } 
+
+
+
+.about{
+    width: 70vw;
+    margin: auto;
+    /* font-size: small; */
+    margin-top: 40px;
+    /* color: #66657a; */
+
+}
+
+.about>div{
+    margin-bottom: 20px
+}
+
+hr{
+    height: 0.5px;
+    background-color:#a5a4b985 ;
+    border: none;
+    margin: 50px 0;
+}
+/* 圖片超連結 */
+
+.boxpic{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50px;
+}
+.boxpic>div{
+    position: relative;
+}
+.boxpic>div>.txt{
+    position:absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+    background-color: rgba(0,0,0,.6);
+    opacity: 0;
+    color: #fff6f6;
+    transition: opacity 0.5s;
+}
+.boxpic>div>.txt::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin: 5px 0;
+    background-color:#fff6f6 ;
+    transition: width 1s 0.2s ;
+}
+.boxpic>div>.txt:hover:after{
+    width: 100%;
+}
+
+.boxpic>div>.txt:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.boxpic>div>img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* 影片 */
+.video{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+}
+.video>.about{
+    border: rgb(212, 212, 212) solid 1px;
+    padding: 20px;
+}
+.video>div{
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    justify-content: center;
+}
+.video>div>.txt{
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    position:absolute;
+    border:white solid 2px ;
+    display: flex;
+    bottom: 25px;
+    opacity: 0.5;
+}
+.video>div>.txt>a{
+    color: white;
+    text-decoration:none
+}
+.video>div>.txt:hover{
+    cursor: pointer;
+    background-color:#fb929e ;
+    border:#fb929e solid 2px ;
+    opacity: 1;
+}
+
+.video>div>img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* 新聞 */
+.news{
+    width: 100%;
+    overflow-x:auto;
+}
+
+.news img{
+    width: 100%;
+}
+
+/* 左上巴丹 */
+.left{
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    display: flex;
+}
+.left>img{
+    width: 15%;
+    height: 15%;
+}
+.left>img:hover{
+    cursor: pointer;
+}
+.left>.txt{
+    margin: auto;
+    height: 100%;
+    background-color: #fb929ed2;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: relative;
+    color: white;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.76);
+
+}
+.left>.txt>a{
+    color: white;
+    text-decoration: none;
+    transition: color .5s;
+}
+.left>.txt>a:hover{
+    color: black;
+}
+
+.left>.txtx{
+    display: none;
+}
