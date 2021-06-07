@@ -17,7 +17,7 @@ import './index.css'
     render() {
         return (
             <div className='header'>
-                <img src="./media/logo.jpg" alt="" onClick={()=>this.Goto('about')} />
+                <img src="media/logo.jpg" alt="" onClick={()=>this.Goto('about')} />
                 <div className='list'>
                     <div onClick={()=>this.Goto('about')}>關於我們</div>
                     <div onClick={()=>this.Goto('breed')}>家養種類</div>
