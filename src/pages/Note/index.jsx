@@ -20,9 +20,9 @@ export default class index extends Component {
                                     避免溫度短時間內劇烈變化(EX：夏天時突然帶進冷氣房<br />
                                     避免冷風(冷氣)直吹
                                     保持適當濕度(50%) <br />
-                                    <img src="parrot_intro/media/溫度.png" alt="" className='img' />
-                                    <img src="parrot_intro/media/下雨.png" alt="" className='img' />
-                                    <img src="parrot_intro/media/冷氣.png" alt="" className='img' />
+                                    <img src="./media/溫度.png" alt="" className='img' />
+                                    <img src="./media/下雨.png" alt="" className='img' />
+                                    <img src="./media/冷氣.png" alt="" className='img' />
                                     </div>
                             </div>
                             <div className="col-12 col-xxl-6  g-3 h-100">
@@ -69,9 +69,9 @@ export default class index extends Component {
                                     三、多款分開放、放飯時再混合：<br />
                                     避免其中一類飼料變質，導致其他飼料也需一併丟棄。<br />
                                     四、使用密封罐、真空罐或防潮箱，也可放入食品乾燥劑以減少濕度。<br />
-                                    <img src="parrot_intro/media/罐子.png" alt="" className='img' />
-                                    <img src="parrot_intro/media/風.png" alt="" className='img' />
-                                    <img src="parrot_intro/media/飼料.png" alt="" className='img' />
+                                    <img src="./media/罐子.png" alt="" className='img' />
+                                    <img src="./media/風.png" alt="" className='img' />
+                                    <img src="./media/飼料.png" alt="" className='img' />
                                     </div>
                             </div>
                             <div className="col-12 col-xxl-6 g-3 h-100">

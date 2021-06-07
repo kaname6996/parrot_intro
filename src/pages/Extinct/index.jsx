@@ -7,7 +7,7 @@ export default class Extinct extends Component {
         return (
             <div className='extinct'>
                 <div className="extinctbox">
-                    <div className="pic"><img src="parrot_intro/media/extinct1.jpg" alt="" /> </div>
+                    <div className="pic"><img src="./media/extinct1.jpg" alt="" /> </div>
                     <div className="txt">
                         <div>《里約大冒險》 主角鸚鵡在野外已經滅絕</div>
                         <p>著名動畫電影《里約大冒險》(Rio)裡的人氣明星：斯皮克斯金剛鸚鵡(Spix's Macaw)，據信在野外已經完全滅絕...</p>
@@ -21,10 +21,10 @@ export default class Extinct extends Component {
                         </p>
                         <p style={{textAlign:'right'}}> <a href='https://www.storm.mg/article/3211520' target="_blank"  rel="noreferrer">繼續閱讀...</a></p>
                     </div>
-                    <div className="pic"><img src="parrot_intro/media/extinct2.jpg" alt="" /> </div>
+                    <div className="pic"><img src="./media/extinct2.jpg" alt="" /> </div>
                 </div>
                 <div className="extinctbox">
-                    <div className="pic"><img src="parrot_intro/media/extinct3.jpg" alt="" /> </div>
+                    <div className="pic"><img src="./media/extinct3.jpg" alt="" /> </div>
                     <div className="txt">
                         <div>亞馬遜大火 「紫藍金剛」棲地受威脅</div>
                         <p>
@@ -38,7 +38,7 @@ export default class Extinct extends Component {
                         <p>世界唯一生長在高山的「啄羊鸚鵡」(kea)因外來種引進、與人類互動、當地人建屋材料所引起的鉛中毒面臨絕種危機，紐西蘭保育人士預估只剩下1000隻到1500隻。</p>
                         <p style={{textAlign:'right'}}> <a href='https://pets.ettoday.net/news/779489' target="_blank"  rel="noreferrer" >繼續閱讀...</a></p>
                     </div>
-                    <div className="pic"><img src="parrot_intro/media/extinct4.jpg" alt="" /> </div>
+                    <div className="pic"><img src="./media/extinct4.jpg" alt="" /> </div>
                 </div>
             </div>
         )

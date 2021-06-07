@@ -5,7 +5,7 @@ export default class Pick extends Component {
     render() {
         return (
             <div className='pick'>
-                <div className='img'> <img src="parrot_intro/media/拾獲鳥類.jpg" alt="" className='w-100 my-1' /> </div>
+                <div className='img'> <img src="./media/拾獲鳥類.jpg" alt="" className='w-100 my-1' /> </div>
                 <div className="container ">
                     <div className="row ">
                         <div className="col-12 col-xxl-6">

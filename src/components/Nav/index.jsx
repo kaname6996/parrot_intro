@@ -7,7 +7,7 @@ import './index.css'
 export default class Nav extends Component {
 
     state={
-        imgs:["parrot_intro/media/1.jpeg","parrot_intro/media/2.jpeg","parrot_intro/media/3.jpeg","parrot_intro/media/4.jpeg","parrot_intro/media/5.jpeg"],
+        imgs:["./media/1.jpeg","./media/2.jpeg","./media/3.jpeg","./media/4.jpeg","./media/5.jpeg"],
     }
     
     render() {
